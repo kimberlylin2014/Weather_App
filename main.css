@@ -1,0 +1,83 @@
+body {
+    font-family: 'Chelsea Market', cursive;
+    background: #f1f9f9;
+    
+}
+button:focus {
+    outline: none;
+}
+.spinner-border {
+    display: none;
+    margin: 200px auto 0 auto;
+}
+#error-msg {
+    color: red;
+}
+/* #result {
+    background-color: white;
+    width: 40%;
+    border-radius: 25px;
+} */
+/* weather component */
+#weatherDetails .card {
+    padding: 0 0 20px 0;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+}
+#weatherDetails .card p {
+    padding: 0;
+    margin: 0;
+}
+.weatherComponent {
+    color: white;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+    0 2px 2px rgba(0,0,0,0.20), 
+    0 4px 4px rgba(0,0,0,0.15), 
+    0 8px 8px rgba(0,0,0,0.10),
+    0 16px 16px rgba(0,0,0,0.05);
+    border: 1px solid rgb(118, 113, 113);
+    background-color: #6886c5;
+    max-width: 140px;
+    width: 130px;
+}
+
+#weather-img {
+    width: "100px";
+}
+/* More Info Modal */
+.modal-detail {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005082;
+}
+.modal-detail-2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #6f6d68;
+}
+.modal {
+    font-size: 18px;
+}
+.modal-header {
+    padding: 5px 0 0 0 ;
+    border-bottom: none;
+}
+.close {
+    padding: 5px;
+    margin: -0.5rem -1rem -1rem auto!important;
+}
+#modal-low {
+    color: #0a97b0;
+    margin-top: 6px;
+}
+#modal-high {
+    color: #ff9234;
+    margin-top: 6px;
+}
+#modal-img {
+    background-color: #dbdbdb;
+    border-radius:  25%;
+}
+
