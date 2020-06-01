@@ -16,10 +16,12 @@ This project is mainly for learning purposes with the emphasis on the following 
 * Async Await
 * Promises
 
+Video Demo of App
+* https://youtu.be/TxuJyi6gLKo
+
 Resources: 
-1. Online Course: The Complete 2020 Web Development by Dr.Angela Yu 
-(https://www.udemy.com/course/the-complete-web-development-bootcamp/)
-2. Weather API from OpenWeatherMap (https://openweathermap.org/)
-3. Weather Image Icons from OpenWeatherMap
+* Online Course: The Complete 2020 Web Development by Dr.Angela Yu (https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+* Weather API from OpenWeatherMap (https://openweathermap.org/)
+* Weather Image Icons from OpenWeatherMap
 
 
