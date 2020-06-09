@@ -135,11 +135,7 @@ $(document).ready(function() {
             sunrise: data.sunrise,
             sunset: data.sunset
         }
-        let arr = [];
-        for(let prop in weatherObj) {
-           arr.push(weatherObj[prop])
-        }
-        return new Weather(...arr);
+        return new Weather(weatherObj);
     }
 
     function checkResp(resp) {

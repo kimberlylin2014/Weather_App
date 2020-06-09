@@ -4,21 +4,20 @@ import * as helper from "./helper.js"
 export class Weather {
     static cityName = null;
     static metric = {"C" : null, "F" : null}
-
-    constructor( id, location, mainTemp, humidity, wind, weatherDescrip,          weatherImg, date, highTemp, lowTemp, sunrise, sunset) {
-        this.id = id;
+    constructor(obj) {
+        this.id = obj.id;
         // this.units = units;
-        this.location = helper.capitalizeFirstLetter(location);
-        this.mainTemp = parseInt(mainTemp);
-        this.humidity = humidity;
-        this.wind = wind;
-        this.weatherDescrip = helper.capitalizeFirstLetter(weatherDescrip);
-        this.weatherImg = weatherImg;
-        this.date = new Date(date * 1000);
-        this.highTemp= parseInt(highTemp);
-        this.lowTemp = parseInt(lowTemp);
-        this.sunrise = new Date(sunrise * 1000);
-        this.sunset = new Date (sunset * 1000);
+        this.location = helper.capitalizeFirstLetter(obj.location);
+        this.mainTemp = parseInt(obj.mainTemp);
+        this.humidity = obj.humidity;
+        this.wind = obj.wind;
+        this.weatherDescrip = helper.capitalizeFirstLetter(obj.weatherDescrip);
+        this.weatherImg = obj.weatherImg;
+        this.date = new Date(obj.date * 1000);
+        this.highTemp= parseInt(obj.highTemp);
+        this.lowTemp = parseInt(obj.lowTemp);
+        this.sunrise = new Date(obj.sunrise * 1000);
+        this.sunset = new Date (obj.sunset * 1000);
     }
 
     static setCityName(name) {
