@@ -1,6 +1,8 @@
 # Weather_App
-
 This project is inspired by Dr.Angela Yu's "The Complete 2020 Web Development" on Udemy
+
+### Video Demo of App
+* https://youtu.be/TxuJyi6gLKo
 
 ### Frontend Language/Framework
 * HTML5
@@ -22,9 +24,6 @@ This project is mainly for learning purposes with the emphasis on the following 
 * Fetch API
 * Async Await
 * Promises
-
-### Video Demo of App
-* https://youtu.be/TxuJyi6gLKo
 
 ### Resources: 
 * Online Course: The Complete 2020 Web Development by Dr.Angela Yu (https://www.udemy.com/course/the-complete-web-development-bootcamp/)
